@@ -10,7 +10,7 @@ namespace rand
     {
         static void Main(string[] args)
         {
-            // 1.將所有號碼都放入list中
+            // 將所有號碼都放入list中
             List<int> numbers = new List<int>();
             for(int i = 1; i <=42; i++)
             {
