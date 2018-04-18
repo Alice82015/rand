@@ -23,10 +23,10 @@ namespace rand
             // 輸入想抽出的號碼數量並轉字串為可運算數值
             Console.WriteLine("請輸入想抽出的號碼數量");
             string amount = Console.ReadLine();
-            int Amount = int.Parse(amount);
+            int amount2 = int.Parse(amount);
 
             // 重複動作
-            for (int i = 0; i < Amount; i++)
+            for (int i = 0; i < amount2; i++)
             {
                 // 隨機挑選其中一個出來
                 int r = rand.Next(1, numbers.Count);
