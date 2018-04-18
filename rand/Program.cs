@@ -33,9 +33,6 @@ namespace rand
 
             // 暫停螢幕
             Console.ReadLine();
-            
-
-            
 
         }
     }
